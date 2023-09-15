@@ -1624,3 +1624,14 @@
   color: #f26250;
   background-color: #fff;
 }
+
+/* FIXEANDO LA NAV BAR */
+.header {
+  position: fixed;
+  z-index: 1000;
+  top: 0;
+  left: 0;
+  width: 100%;
+  display: flex;
+  /* Otros estilos de tu barra de navegación */
+}
