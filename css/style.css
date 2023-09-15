@@ -3,18 +3,6 @@
 /* HEADER */
 /**************************/
 
-.header {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  background-color: #f7f7f7;
-
-  /* Because we want header to be sticky later */
-  height: 9.6rem;
-  padding: 0 4.8rem;
-  position: relative;
-}
-
 .logo {
   height: 6rem;
 }
@@ -84,6 +72,15 @@
   display: none;
 }
 
+@keyframes fade-in {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
 /* STICKY NAVIGATION */
 .sticky .header {
   position: fixed;
@@ -94,8 +91,9 @@
   padding-top: 0;
   padding-bottom: 0;
   background-color: rgba(255, 255, 255, 0.97);
-  z-index: 999;
+  z-index: 1001;
   box-shadow: 0 1.2rem 3.2rem rgba(0, 0, 0, 0.03);
+  animation: fade-in 0.5s ease-in-out;
 }
 
 .sticky .section-hero {
@@ -1627,11 +1625,16 @@
 
 /* FIXEANDO LA NAV BAR */
 .header {
-  position: fixed;
+  height: 9.6rem;
+  padding: 0 4.8rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #f7f7f7;
+  position: sticky;
   z-index: 1000;
   top: 0;
   left: 0;
   width: 100%;
-  display: flex;
   /* Otros estilos de tu barra de navegación */
 }
