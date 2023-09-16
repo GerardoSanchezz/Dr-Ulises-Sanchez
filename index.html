@@ -83,7 +83,7 @@
             <a class="main-nav-link nav-link" href="#servicio">Servicio</a>
           </li>
           <li>
-            <a class="main-nav-link nav-link" href="#contacto">Contacto</a>
+            <a class="main-nav-link nav-link" href="#direccion">Dirección</a>
           </li>
           <!-- Agregar íconos y enlaces para Facebook, correo y WhatsApp -->
           <li>
@@ -178,9 +178,9 @@
 
       <!-- SECCION SOBRE MI  -->
 
-      <section class="section-hero2" id="nosotros" data-aos="fade-right">
+      <section class="section-hero2" id="nosotros">
         <div class="hero">
-          <div class="hero-img-box">
+          <div class="hero-img-box" data-aos="fade-right">
             <picture>
               <source
                 srcset="img/Dr_Sanchez_Sobre_mi-removebg-preview.png"
@@ -198,7 +198,7 @@
               />
             </picture>
           </div>
-          <div class="hero-text-box">
+          <div class="hero-text-box" data-aos="fade-left">
             <h1 class="heading-primary2">Sobre mi</h1>
             <h2 class="Name">DR ULISES ERNESTO SANCHEZ URBINA</h2>
             <p class="hero-description2">
@@ -218,9 +218,9 @@
         </div>
       </section>
 
-      <section class="section-hero" data-aos="fade-left">
+      <section class="section-hero">
         <div class="hero">
-          <div class="hero-text-box">
+          <div class="hero-text-box" data-aos="zoom-in-right">
             <h1 class="heading-primary">Certificaciones</h1>
             <p class="hero-description">
               Certificaciones y Recertificaciones vigentes en la Especialidad y
@@ -235,7 +235,7 @@
               <div class="delivered-imgs"></div>
             </div>
           </div>
-          <div class="hero-img-box">
+          <div class="hero-img-box" data-aos="zoom-in-left">
             <picture>
               <source srcset="img/certificado-imagen.jpg" type="image/jpg" />
               <source srcset="img/certificado-imagen.jpg" type="image/jpg" />
@@ -252,7 +252,14 @@
 
       <!-- SECCION PARA SERVICIOS -->
 
-      <section class="section-servicios" id="servicio" data-aos="zoom-in-up">
+      <section
+        class="section-servicios"
+        id="servicio"
+        data-aos="fade-down"
+        data-aos-easing="linear"
+        data-aos-duration="500"
+      >
+        >
         <div class="hero-text-box">
           <h1 class="heading-servicios">SERVICIOS</h1>
           <h1 class="heading-servicios2">
@@ -586,11 +593,26 @@
         </div>
       </section>
 
-      <section class="section-hero" data-aos="fade-left">
+      <section class="section-hero" data-aos="fade-down-left" id="direccion">
         <div class="hero">
           <div class="hero-text-box">
-            <h1 class="heading-primary">Contacto</h1>
-            <p class="hero-description"></p>
+            <h1 class="heading-primary">Dirección</h1>
+            <div class="hero-img-box" data-aos="zoom-in-left">
+              <picture>
+                <source srcset="img/consultorio.jpg" type="image/jpg" />
+                <source srcset="img/consultorio.jpg" type="image/jpg" />
+
+                <img
+                  src="img/consultorio.jpg"
+                  class="consultorio-img"
+                  alt="Imagen consultorio"
+                />
+              </picture>
+            </div>
+            <p class="hero-description">
+              Boulevard Centenario #1499 Sur, Colonia Las Delicias, Los Mochis,
+              Sinaloa,Ahome
+            </p>
             <div class="delivered-meals">
               <div class="delivered-imgs"></div>
             </div>

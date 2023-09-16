@@ -214,7 +214,13 @@
 }
 
 .lab-img {
-  width: 70%;
+  width: 100%;
+  margin: 0 auto;
+  align-items: center;
+}
+
+.consultorio-img {
+  width: 100%;
   margin: 0 auto;
   align-items: center;
 }
