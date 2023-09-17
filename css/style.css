@@ -1644,3 +1644,50 @@
   width: 100%;
   /* Otros estilos de tu barra de navegación */
 }
+
+.gallery {
+  width: 80%;
+  margin: auto;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  column-gap: 1.5rem;
+  row-gap: 2rem;
+}
+
+.image {
+  position: relative;
+  overflow: hidden;
+}
+
+.image img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  transition: transform 0.2s;
+}
+
+.image:hover img {
+  transform: scale(1.1);
+}
+
+/* @media (min-width: 100px) {
+  .image {
+    grid-template-columns: repeat(3, 1fr);
+    margin-right: 5rem;
+  }
+}
+@media (min-width: 520px) {
+  .image {
+    grid-template-columns: repeat(5, 1fr);
+  }
+}
+@media (min-width: 728px) {
+  .image {
+    grid-template-columns: repeat(5, 1fr);
+  }
+}
+@media (min-width: 1024px) {
+  .image {
+    grid-template-columns: repeat(5, 1fr);
+  }
+} */
