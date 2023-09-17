@@ -117,7 +117,21 @@ body {
   letter-spacing: -0.5px;
 }
 
+.heading-direccion {
+  font-weight: 700;
+  color: #004884;
+  /* color: #45260a; */
+  /* color: #343a40; */
+  letter-spacing: -0.5px;
+}
+
 .heading-primary {
+  font-size: 5.2rem;
+  line-height: 1.05;
+  margin-bottom: 3.2rem;
+}
+
+.heading-direccion {
   font-size: 5.2rem;
   line-height: 1.05;
   margin-bottom: 3.2rem;
@@ -147,7 +161,7 @@ body {
 }
 
 .heading-servicios2 {
-  color: #e7411f;
+  color: #f46a4f;
   font-size: 2rem;
   line-height: 1.05;
   margin-bottom: 1.2rem;
