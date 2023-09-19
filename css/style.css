@@ -841,14 +841,14 @@
   line-height: 1.6; */
   color: #003b57;
   position: absolute;
-  max-block-size: 50%;
+  max-block-size: 60%;
   bottom: 0;
   left: 0;
   width: 100%;
   background-color: rgba(255, 255, 255, 0.8);
   padding: 10px;
   font-style: normal;
-  font-size: 2rem;
+  font-size: 1.3rem;
   line-height: 1.6;
   text-align: center;
   white-space: normal; /* Permite que el texto se divida en varias líneas */
