@@ -1690,3 +1690,15 @@
     grid-template-columns: repeat(2, 1fr);
   }
 }
+
+/* Aplicar estilos al contenedor */
+.collageDiplomas {
+  max-width: 100%;
+  margin: 0 auto; /* Centrar el contenido */
+}
+
+/* Aplicar estilos a la imagen */
+.collageDiplomas img {
+  max-width: 100%; /* La imagen nunca será más ancha que su contenedor */
+  height: auto; /* Mantener la proporción de aspecto */
+}
