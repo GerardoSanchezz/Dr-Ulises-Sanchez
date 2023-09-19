@@ -1702,3 +1702,62 @@
   max-width: 95%; /* La imagen nunca será más ancha que su contenedor */
   height: auto; /* Mantener la proporción de aspecto */
 }
+
+.iconos-footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 6rem; /* Agregar margen inferior */
+}
+
+.iconos-footer svg,
+.iconos-footer i {
+  font-size: 5rem; /* Tamaño grande */
+  margin: 1rem 4rem; /* Espacio entre los iconos */
+  transition: fill 0.3s; /* Transición suave del color de relleno */
+}
+
+@media (max-width: 768px) {
+  /* Estilos para pantallas pequeñas (responsivo) */
+  .iconos-footer {
+    flex-direction: column; /* Iconos apilados verticalmente en pantallas pequeñas */
+    text-align: center;
+  }
+}
+
+.iconos-footer svg:hover,
+.iconos-footer i:hover {
+  fill: rgb(20, 189, 246); /* Cambia el color de relleno al pasar el mouse */
+}
+
+.whatsapp-icon svg {
+  fill: #62d813; /* Cambia el color del icono de WhatsApp */
+  transition: fill 0.3s; /* Transición suave del color de relleno */
+}
+
+.whatsapp-icon svg:hover {
+  fill: rgb(4, 245, 4); /* Cambia el color de relleno al pasar el mouse */
+}
+
+.facebook-icon svg {
+  fill: #007bff; /* Cambia el color del icono de facebook */
+  transition: fill 0.3s; /* Transición suave del color de relleno */
+}
+
+.facebook-icon svg:hover {
+  fill: #3295ff; /* Cambia el color de relleno al pasar el mouse */
+}
+
+.emaill-icon svg {
+  fill: #0000cc; /* Cambia el color del icono de facebook */
+  transition: fill 0.3s; /* Transición suave del color de relleno */
+}
+
+.emaill-icon svg:hover {
+  fill: #5454ff;
+}
+
+.footer {
+  margin-top: -10rem; /* Ajusta el valor según tus necesidades */
+  margin-bottom: 0; /* Elimina el margen inferior predeterminado */
+}
