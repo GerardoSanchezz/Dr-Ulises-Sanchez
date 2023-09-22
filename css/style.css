@@ -800,7 +800,7 @@
 
 @media (min-width: 100px) {
   .services-galery {
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: repeat(2, 1fr);
     margin-right: 5rem;
   }
 }
@@ -1740,7 +1740,7 @@
 }
 
 .facebook-icon svg {
-  fill: #007bff; /* Cambia el color del icono de facebook */
+  fill: #5ba3f0; /* Cambia el color del icono de facebook */
   transition: fill 0.3s; /* Transición suave del color de relleno */
 }
 
@@ -1749,15 +1749,24 @@
 }
 
 .emaill-icon svg {
-  fill: #0000cc; /* Cambia el color del icono de facebook */
+  fill: #cef132; /* Cambia el color del icono de facebook */
   transition: fill 0.3s; /* Transición suave del color de relleno */
 }
 
 .emaill-icon svg:hover {
-  fill: #5454ff;
+  fill: #e5f905;
 }
 
 .footer {
-  margin-top: -10rem; /* Ajusta el valor según tus necesidades */
-  margin-bottom: 0; /* Elimina el margen inferior predeterminado */
+  background-color: #091d4d;
+  padding: 4.8rem 0 9.6rem 0;
+}
+
+.footer-heading {
+  color: #fff;
+  font-size: 2.4rem;
+}
+
+.address {
+  color: #fff;
 }
